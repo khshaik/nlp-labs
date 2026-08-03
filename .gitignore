@@ -3,6 +3,49 @@
 # ============================================================
 
 # ============================================================
+# SECURITY & SENSITIVE FILES (CRITICAL!)
+# ============================================================
+
+# GitHub Push Instructions (contains workflow info)
+PUSH_TO_GITHUB.md
+**/PUSH_TO_GITHUB.md
+
+# API Keys, Tokens, Credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*_key
+*_secret
+*_token
+*_password
+*_credentials
+token.txt
+secrets.txt
+credentials.txt
+api_keys.txt
+
+# PAT tokens and authentication
+.pat
+.token
+.github_token
+github_pat_*
+ghp_*
+gho_*
+ghu_*
+ghs_*
+ghr_*
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ppk
+
+# ============================================================
 # Python
 # ============================================================
 
