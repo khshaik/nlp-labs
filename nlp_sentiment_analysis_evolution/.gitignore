@@ -3,7 +3,7 @@
 # ============================================================
 # Only these files/folders will be visible on GitHub:
 # - README.md
-# - NLP_Graded_Assignment_1.ipynb
+# - sentiment_analysis.ipynb
 # - requirements.txt
 # - LICENSE
 # - presentation/
@@ -24,15 +24,13 @@
 # Hide all JSON part files (used for notebook generation)
 sentiment_analysis_part*.json
 
-# Hide original notebook (we use NLP_Graded_Assignment_1.ipynb)
-sentiment_analysis.ipynb
-
 # Hide project planning/reference files
 PROJECT_PROMPT.md
 skills.md
 
 # Hide any other notebooks not meant for submission
 2025em1100102_telcochurn_prediction_neuralnetworks.ipynb
+NLP_Graded_Assignment_1.ipynb
 
 # ============================================================
 # STANDARD PYTHON GITIGNORE
