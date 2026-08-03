@@ -1,0 +1,126 @@
+# ============================================================
+# GITHUB REPOSITORY STRUCTURE
+# ============================================================
+# Only these files/folders will be visible on GitHub:
+# - README.md
+# - NLP_Graded_Assignment_1.ipynb
+# - requirements.txt
+# - LICENSE
+# - presentation/
+# - reports/
+# - images/
+#
+# Everything else is hidden for development/working files
+# ============================================================
+
+# ============================================================
+# HIDE ALL WORKING/DEVELOPMENT FILES
+# ============================================================
+
+# Hide all markdown files except README.md
+*.md
+!README.md
+
+# Hide all JSON part files (used for notebook generation)
+sentiment_analysis_part*.json
+
+# Hide original notebook (we use NLP_Graded_Assignment_1.ipynb)
+sentiment_analysis.ipynb
+
+# Hide project planning/reference files
+PROJECT_PROMPT.md
+skills.md
+
+# Hide any other notebooks not meant for submission
+2025em1100102_telcochurn_prediction_neuralnetworks.ipynb
+
+# ============================================================
+# STANDARD PYTHON GITIGNORE
+# ============================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (large)
+models/
+*.bin
+*.h5
+
+# Temporary files
+tmp/
+temp/

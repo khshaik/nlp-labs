@@ -1,0 +1,39 @@
+# Core Data Science Libraries
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# NLP Libraries
+nltk>=3.6.0
+
+# Traditional Machine Learning
+scikit-learn>=1.0.0
+
+# Deep Learning - PyTorch
+torch>=1.10.0
+
+# Pretrained Models - HuggingFace Transformers
+transformers>=4.15.0
+
+# Utilities
+tqdm>=4.62.0
+
+# Optional: For Google Colab compatibility
+# google-colab (automatically available in Colab)
+
+# Installation Instructions:
+# pip install -r requirements.txt
+
+# For Google Colab:
+# Most libraries are pre-installed. You may need to install:
+# !pip install transformers
+
+# NLTK Data Downloads (run in Python):
+# import nltk
+# nltk.download('movie_reviews')
+# nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('wordnet')
+# nltk.download('omw-1.4')
+# nltk.download('vader_lexicon')
