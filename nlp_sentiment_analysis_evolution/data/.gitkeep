@@ -1,0 +1,2 @@
+# This file ensures the data directory is tracked by git
+# NLTK data should be downloaded using download_nltk_data.py script
