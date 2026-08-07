@@ -1,0 +1,322 @@
+```text
+Graded Assignment-1
+
+Assignment Required
+
+Due Date:
+08 August 2026, 11:59 PM
+
+Duration:
+12 Jul – 8 Aug
+
+Status:
+Not Submitted
+
+Submission:
+Go to: Submission
+
+============================================================
+Take Home Assignment
+============================================================
+
+Title:
+The Evolution of NLP – Comparing Three Eras of Sentiment Analysis
+
+Course:
+Natural Language Processing
+
+Topic:
+- Text Preprocessing
+- Sentiment Analysis using Traditional Machine Learning
+- Deep Learning (RNN/LSTM)
+- Pretrained NLP Models
+
+Total Marks:
+20
+
+============================================================
+Objective
+============================================================
+
+The objective of this assignment is to understand how NLP systems process human language by comparing three different AI paradigms:
+
+1. Traditional Machine Learning (Statistical Patterns)
+2. Deep Learning (Sequential Memory Networks)
+3. Pretrained "Off-the-Shelf" Models (Zero-shot/Pretrained Inference)
+
+============================================================
+About the Assignment
+============================================================
+
+An AI consultancy firm wants to build an automated text analysis tool to process unstructured movie reviews.
+
+The engineering team must decide whether to:
+
+- Build a lightweight statistical model
+- Invest compute power into a deep learning model
+- Use an existing pretrained open-source model
+
+Implement all three pipelines on the same dataset and provide a technical recommendation based on your findings.
+
+============================================================
+Dataset
+============================================================
+
+Use the NLTK Movie Reviews Dataset:
+
+nltk.corpus.movie_reviews
+
+Dataset Details:
+
+- 2,000 movie reviews
+- Binary Sentiment:
+  - Positive
+  - Negative
+
+============================================================
+Pipeline Architecture
+============================================================
+
+NLTK Movie Reviews Dataset
+
+↓
+
+Text Preprocessing
+
+↓
+
+Train/Test Split
+
+↓
+
+Pipeline 1:
+Traditional Machine Learning
+(TF-IDF + Classifier)
+
+Pipeline 2:
+Deep Learning
+(PyTorch RNN/LSTM)
+
+Pipeline 3:
+Pretrained NLP Model
+(VADER / TextBlob / HuggingFace / Others)
+
+↓
+
+Evaluation & Comparison
+
+- Accuracy
+- Training Time
+- Other Evaluation Metrics
+
+============================================================
+Task 1 — Data Sourcing & Preprocessing (3 Marks)
+============================================================
+
+- Load the NLTK Movie Reviews dataset.
+- Perform text preprocessing:
+  - Lowercasing
+  - Noise removal
+  - Stop-word removal
+  - Remove punctuation
+  - Remove numbers
+  - Any additional preprocessing
+- Split the dataset:
+  - Training: 80%
+  - Testing: 20%
+- Ensure every pipeline uses the exact same Test Set.
+
+============================================================
+Task 2 — Traditional Machine Learning (4 Marks)
+============================================================
+
+Train a traditional statistical model from scratch.
+
+Vectorization:
+
+- Bag of Words
+OR
+- TF-IDF
+OR
+- Any suitable feature extraction approach
+
+Model:
+
+- Logistic Regression
+OR
+- Naive Bayes
+OR
+- Any suitable classifier
+
+Output:
+
+- Accuracy
+- One additional evaluation metric
+
+============================================================
+Task 3 — Deep Learning Approach (5 Marks)
+============================================================
+
+Train a sequential deep learning model from scratch.
+
+Embedding:
+
+- PyTorch nn.Embedding
+
+Architecture:
+
+- RNN
+OR
+- LSTM
+
+Output:
+
+- Accuracy
+- One additional evaluation metric
+
+============================================================
+Task 4 — Pretrained Model (3 Marks)
+============================================================
+
+Use a pretrained sentiment analysis model.
+
+Possible Models:
+
+- NLTK VADER
+- TextBlob
+- HuggingFace Pipeline
+- Any suitable pretrained model
+
+Requirements:
+
+- Do NOT train the model.
+- Perform inference directly on the Test Set.
+- Convert polarity scores into:
+  - Positive
+  - Negative
+
+Output:
+
+- Accuracy
+- One additional evaluation metric
+
+============================================================
+Task 5 — Final Analysis (5 Marks)
+============================================================
+
+Prepare a technical business insight report.
+
+Answer the following:
+
+1. Compare:
+
+   - Accuracy
+   - Evaluation metrics
+   - Training time
+
+   Which pipeline performed best?
+
+2. Why did the pretrained model perform the way it did compared to the models trained from scratch?
+
+Hint:
+Consider domain adaptation:
+
+- What data was the pretrained model originally trained on?
+- What data was it evaluated on?
+
+3. Which evaluation metrics did you choose?
+
+Explain why they are suitable.
+
+4. Which model would you recommend for production deployment?
+
+Consider:
+
+- Accuracy
+- Other evaluation metrics
+- Compute cost
+- Training time
+- Availability of training data
+- Development effort
+- Performance on unseen data
+- Scalability
+- Maintenance
+
+============================================================
+Submission Requirements
+============================================================
+
+Submit:
+
+1. Jupyter Notebook (.ipynb)
+
+Include:
+
+- Clean, well-commented code
+- Complete implementation of Tasks 1–4
+
+2. Presentation
+
+Include:
+
+- Findings
+- Comparisons
+- Business insights
+- Client recommendations
+- Answers to all Task 5 questions
+
+============================================================
+Evaluation
+============================================================
+
+Total Marks: 20
+
+============================================================
+Submission Details
+============================================================
+
+Submission Type: File Submission
+Files Allowed: One File
+Allowed File Type: .ipynb
+Number of Submissions: All submissions are kept.
+
+============================================================
+Tip
+============================================================
+
+Always prepare your deliverables from the client's perspective. Creativity, clarity, and practical recommendations will be rewarded.
+```
+
+https://github.com/lingchen0331/sentiment-analysis-on-movie-reviews?utm_source=chatgpt.com
+
+https://github.com/mrc03/Movie-Reviews-NLTK-Sentiment-Analysis-
+  https://github.com/mrc03/Movie-Reviews-NLTK-Sentiment-Analysis-/blob/master/Movie%20Reviews%20NLTK%20Sentiment%20Analysis%20.ipynb
+
+https://www.educative.io/answers/sentiment-analysis-of-movie-reviews-using-nltk
+https://github.com/susanli2016/
+Machine-Learning-with-Python/blob/master/Natural%20Language%20Processing%20of%20Movie%20Reviews%20using%20nltk%20.ipynb
+
+https://www.kaggle.com/datasets/bharatnatrayn/movie-review-nltk
+
+https://lukmanaj.medium.com/decoding-emotions-unveiling-sentiments-in-imdb-movie-reviews-with-nltks-e1f56d955e7b
+-------
+
+| Rank    | Repository                                                                                                                                     | Match   | Why it matches                                                                                                 | Missing pieces                                                                                   |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| ⭐⭐⭐⭐⭐ 1 | [lingchen0331/sentiment-analysis-on-movie-reviews](https://github.com/lingchen0331/sentiment-analysis-on-movie-reviews?utm_source=chatgpt.com) | **95%** | End-to-end preprocessing, TF-IDF, traditional ML, word embeddings, deep learning comparison, detailed notebook | Uses TensorFlow/Keras instead of PyTorch LSTM; pretrained model needs to be added. ([GitHub][1]) |
+| ⭐⭐⭐⭐☆ 2 | [alaa-amr/Sentiment-Analysis](https://github.com/alaa-amr/Sentiment-Analysis?utm_source=chatgpt.com)                                           | **90%** | Multiple ML algorithms, preprocessing, TF-IDF, evaluation metrics, comparison of models                        | No LSTM, no pretrained inference. ([GitHub][2])                                                  |
+| ⭐⭐⭐⭐☆ 3 | [Praveen76/Sentiment-Analysis-using-LSTM-Model](https://github.com/Praveen76/Sentiment-Analysis-using-LSTM-Model?utm_source=chatgpt.com)       | **88%** | Excellent PyTorch/LSTM style workflow for sentiment analysis, preprocessing and embeddings                     | Uses IMDb dataset; ML and pretrained pipelines absent. ([GitHub][3])                             |
+| ⭐⭐⭐⭐☆ 4 | [bryantanjw/IMDB_Sentiment_Analysis](https://github.com/bryantanjw/IMDB_Sentiment_Analysis?utm_source=chatgpt.com)                             | **85%** | TF-IDF, Logistic Regression, GridSearchCV, preprocessing, evaluation                                           | No LSTM, no pretrained comparison. ([GitHub][4])                                                 |
+| ⭐⭐⭐☆☆ 5 | Notebook Community Sentiment Analysis Project                                                                                                  | **82%** | Demonstrates VADER sentiment analysis on movie reviews, useful for pretrained pipeline                         | Doesn't compare with ML or LSTM. ([notebook.community][5])                                       |
+| ⭐⭐⭐☆☆ 6 | Notebook Community Movie Review Sentiment Analysis                                                                                             | **80%** | Logistic Regression, SVM, Naive Bayes, preprocessing                                                           | Missing deep learning and pretrained models. ([notebook.community][6])                           |
+| ⭐⭐⭐☆☆ 7 | [LarsChrWiik/Sentiment-Analysis](https://github.com/LarsChrWiik/Sentiment-Analysis?utm_source=chatgpt.com)                                     | **75%** | Traditional ML comparison and feature engineering                                                              | Different dataset and no deep learning. ([GitHub][7])                                            |
+
+[1]: https://github.com/lingchen0331/sentiment-analysis-on-movie-reviews?utm_source=chatgpt.com "GitHub - lingchen0331/sentiment-analysis-on-movie-reviews: Sentiment analysis on movie reviews using Tensorflow, Keras and Sklearn · GitHub"
+[2]: https://github.com/alaa-amr/Sentiment-Analysis?utm_source=chatgpt.com "GitHub - alaa-amr/Sentiment-Analysis: Apply Sentiment Analysis of movie reviews using sentiment polarity datasets (positive and negative) · GitHub"
+[3]: https://github.com/Praveen76/Sentiment-Analysis-using-LSTM-Model?utm_source=chatgpt.com "GitHub - Praveen76/Sentiment-Analysis-using-LSTM-Model · GitHub"
+[4]: https://github.com/bryantanjw/IMDB_Sentiment_Analysis?utm_source=chatgpt.com "GitHub - bryantanjw/IMDB_Sentiment_Analysis: Sentiment Analysis on IMDB movie reviews using Logistic Regression · GitHub"
+[5]: https://notebook.community/rishuatgithub/MLPy/nlp/UPDATED_NLP_COURSE/04-Semantics-and-Sentiment-Analysis/02-Sentiment-Analysis-Project?utm_source=chatgpt.com "| notebook.community"
+[6]: https://notebook.community/anilcs13m/MachineLearning_Mastering/movie%20review%20sentiment%20analysis/Movie%20Review%20Sentiment%20Analysis?utm_source=chatgpt.com "| notebook.community"
+[7]: https://github.com/LarsChrWiik/Sentiment-Analysis?utm_source=chatgpt.com "GitHub - LarsChrWiik/Sentiment-Analysis: Kaggle competition “Sentiment Analysis on Movie Reviews” · GitHub"
+
+
