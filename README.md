@@ -67,6 +67,7 @@ This repository serves as a **living laboratory** for exploring:
 - Zero-shot and few-shot learning
 
 **Projects:**
+- ✅ [QuizGenius AI](quizgenius/) — Gemini-powered quiz generation with Jupyter and Streamlit
 - 📋 BERT Fine-tuning for Classification
 - 📋 Question Answering Systems (SQuAD)
 - 📋 Named Entity Recognition with Transformers
